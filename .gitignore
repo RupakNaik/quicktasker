@@ -1,12 +1,23 @@
-# Node
+# Node modules
 node_modules/
+
+# Environment variables
 .env
 
-# MacOS
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Mac-specific files
 .DS_Store
 
-# React build
-client/build/
+# OS junk
+Thumbs.db
 
-# Logs
-*.log
+# IDEs
+.vscode/
+.idea/
+
+# Optional: Ignore MongoDB data dumps
+dump/
