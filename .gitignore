@@ -1,0 +1,12 @@
+# Node
+node_modules/
+.env
+
+# MacOS
+.DS_Store
+
+# React build
+client/build/
+
+# Logs
+*.log
